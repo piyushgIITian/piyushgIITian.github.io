@@ -20,17 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import stockr from "./stockregister.webp"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import piramal from "./piramal.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import sigmared from  "./sigmared.png";
+import flam from  "./flam.png";
+import sevenwords from  "./7words.png";
+import rainbow from  "./rainbow.jpg";
+import chatbot from  "./chatbot.png";
 export {
+  rainbow,
+  chatbot,
   logo,
   backend,
   creator,
@@ -43,7 +50,9 @@ export {
   docker,
   figma,
   git,
+  piramal,
   html,
+  stockr,
   javascript,
   mongodb,
   nodejs,
@@ -59,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  sigmared,
+  flam,
+  sevenwords
 };

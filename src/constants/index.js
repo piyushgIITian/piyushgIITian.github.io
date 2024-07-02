@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  sigmared,
+  stockr,
+  piramal,
+  flam,
+  sevenwords,
+  rainbow,
+  chatbot
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +40,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -46,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Application Developer",
     icon: mobile,
   },
   {
@@ -54,7 +65,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Specialist",
     icon: creator,
   },
 ];
@@ -116,55 +127,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "SigmaRed Technologies Inc.",
+    icon: sigmared,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered the Sigmared Cyrapid security product, allowing users to create and monitor cyber risk and compliance assessments. Implemented features for uploading policy documents and workbooks, selecting frameworks like ISO27001 and NIS2, and generating AI-driven reports reviewed by Cyrapid agents and human assessors.",
+      "Developed a full-stack application using Next.js for a California-based client. This project included GPT integration via Vercel's AI library with Azure OpenAI, and involved designing a database to store GPT history and user activities using Prisma ORM with Azure PostgreSQL. Leveraged various React libraries to enhance user experience, and conducted rigorous testing to optimize both UI and UX. Adhered to professional design and testing standards, and ensured robust security measures including OAuth and secured APIs.",
+      "Integrated ChatGPT with ElevenLabs APIs to incorporate streaming audio into GPT output, ensuring precise alignment of voice and text. Utilized Web Audio APIs and WebSockets to achieve seamless synchronization.",
+      "Developed a Power BI dashboard for a Florida-based client with automatic 15-day data refresh from Athena using JDBC connector. Implemented best design practices for a multi-page dashboard and incorporated customized filters based on client specifications.",
+      "Created a security and monitoring product for a Canadian client, utilizing ReactJS for the front end and Python FastAPI for the backend. Integrated ECharts to visualize security scores and compliance assessment metrics. Ensured secure coding practices and reliable versioning through the use of a private CDN.",
+      "Developed a comprehensive full-stack Sigmarapid Automation: AI Compliance and Risk Management platform, utilizing AngularJS and AWS microservices such as Lambda, API Gateway, and Route 53."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer Internship",
+    company_name: "RipeTech Business Pvt Ltd",
+    icon: stockr,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jul 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Orchestrated the seamless development of Spring Boot APIs, aligning them with evolving feature requirements. Pioneered the inte gration of Loggly, fortifying our logging capabilities and enabling cloud-based log analytics. Additionally, spearheaded the optimiza tion of SQLqueries to alleviate AWS RDSstrain, identifying opportunities to curtail AWS expenses and mitigate recurrent instances of  system overload during peak usage periods.",
+      "Instrumental in bolstering system resilience and cost-efficiency through the integration of a Redis cache into our Spring Boot appli cation. Leveraged Amazon EC2 and Redis cluster architecture to ensure robust cache functionality, effectively eliminating system  crashes and alleviating the strain on the database, resulting in enhanced overall system stability."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer Internship",
+    company_name: "Piramal Capital and Housing Finance Ltd.",
+    icon: piramal,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a full-stack web application for Piramal's AWS Parameter Store, utilizing SpringBoot for the backend and Appsmith for the frontend. This system facilitated efficient interaction with AWS Parameter Store, enabling admin users (managers) to manage teams, services, members, and owners with role-based access control.",
+      "Created a user-friendly dashboard displaying team-specific service parameters, offering features such as sorting, searching, creating, and comparing parameters. Additionally, implemented the \"rbac-web\" project using AngularJS, enhancing access control with a \"Permissions\" tab for managing permissions. Detailed documentation and instructions were provided for future reference."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Developer Internship",
+    company_name: "Flying Flamingos India Pvt Ltd (Flam)",
+    icon: flam,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my two-part internship in 2022 and 2023, I engaged in cutting-edge work at the intersection of cloud image recognition, augmented reality, and deep learning. In the first part, I developed a cloud image recognition architecture, akin to Vuforia in Unity 3D, enabling live camera image mapping to videos in a database for immersive AR experiences. I also pioneered a pattern generation algorithm for highly recognizable image targets, optimizing feature points.",
+      "In the second part, I extended my expertise by designing a robust Unity avatar system with iframe web app integration and created a customizable 3D avatar ecosystem using Next.js and Three.js. Additionally, I led the implementation of AI motion capture using Media Pipe Pose, converting 2D camera input into realistic 3D motions. Throughout both parts, I leveraged AWS services for storage, AI tasks, and scalable computing while closely collaborating with the team to ensure seamless integration and an immersive user experience."
     ],
   },
 ];
@@ -172,11 +179,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Piyush proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/42.jpg",
   },
   {
     testimonial:
@@ -198,16 +205,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "7 words AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A global, web based learning platform—powered by AI—that enables individuals and organizations to find their purpose by discovering what makes them uniquely remarkable in 7 words or less.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgres",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +222,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sevenwords,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Project Rainbow",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      `
+A highly confidential project featuring multiple dashboards that display plots, charts, and tables, designed to provide comprehensive insights into various factors and facilitate data-driven decision-making.`,
     tags: [
       {
         name: "react",
@@ -232,32 +240,32 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "plotly",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: rainbow,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Audio Chatbot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A user-friendly chat application that leverages ElevenLabs and OpenAI APIs to provide seamless, conversational interactions with advanced AI capabilities.",
     tags: [
       {
-        name: "nextjs",
+        name: "streamlit",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "elevenlabs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: chatbot,
     source_code_link: "https://github.com/",
   },
 ];
